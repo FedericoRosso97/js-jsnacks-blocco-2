@@ -6,10 +6,10 @@ let tentativi=[];
 while(!(number===guess)){
      guess=parseInt(prompt('indovina il numero'));
      if(number>guess){
-        console.log('Il numero da indovinare è alto!')
+        console.log('Il numero da indovinare è più alto!')
      }else{
         console.log('Il numero da indovinare è più basso!')
      }
      tentativi.push(guess);
     }
-    console.log(tentativi.length+' è numero di tentativi');
+    console.log('Indovinato! '+tentativi.length+' è il numero di tentativi');
