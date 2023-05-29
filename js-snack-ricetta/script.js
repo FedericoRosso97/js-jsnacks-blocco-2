@@ -31,7 +31,6 @@ submmitButton.addEventListener('click',function(){
 })
 
 imageButton.addEventListener('click',function(){
-   
     if(counter>2){
         generato=true;
        console.log('ciao!')
